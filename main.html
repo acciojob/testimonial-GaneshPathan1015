@@ -10,7 +10,7 @@
 			padding: 20px 0px 10px 20px
 		}
 		
-		div>div>p{
+		div>:last-child{
 			font-style:italic;
 			text-align:right;
 		}
@@ -38,12 +38,11 @@
 	<h1>Testimonial</h1>
 	<div id="box1">
 		<p>This Product is amazing! highly recommend it to anyone in need a solution like this.</p>
-		<div><p>-John Doe</p></div>
-		
+		<p>-John Doe</p>
 	</div>
 	<div id="box2">
 		<p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
-		<div><p>-Jane Smith</p></div>
+		<p>-Jane Smith</p>
 	</div>
 <script type="text/javascript" src="./script.js">
 </script>
